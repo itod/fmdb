@@ -495,7 +495,8 @@ If you don't, you're going to be in a world of hurt when you try and use the dat
  */
 
 @property (nonatomic, readonly, nullable) NSDictionary *resultDictionary;
- 
+@property (nonatomic, readonly, nullable) NSDictionary *safeResultDictionary;
+
 /** Returns a dictionary of the row results
  
  @see resultDictionary
